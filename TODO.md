@@ -34,7 +34,7 @@
 ## Lower priority TODO
 ```
 Software Features:
-[ ] Figure out if it's possible to make the CircuitPython 'boot-up' less verbose (e.g. don't show screen text)
+[ ] Figure out if it's possible to make the CircuitPython 'boot-up' less verbose (e.g. don't show on-screen boot text)
 [ ] Add ability to roll '2D6' as an option
 [ ]   (or another button to cycle through # to roll...? reset to 1 if first time used in a while? save to memory?)
 
@@ -44,12 +44,11 @@ Hardware Features:
 [x]   Separate (colorful) plastic button caps on each button (captured by this thicker top plate)
 [x]   New rear-mount case design (with threads or inserts in rear of thicker top plate)
 [ ] Look into availability of heat-set M2.5 and M2 threaded inserts / helicoils
-[ ] Once happy with case, get printed with finer settings (perhaps SLS)
 
 Cleanup and test
-[ ] Refactor dieroll()
+[x] Refactor dieroll()
 [ ] Precompute polygon vertices for animation, test to see if that speeds animation
-    (either just precompute some values on dice type switch, or precompute all possible rotations in a big lookup table)
+    (either on dice type switch, or precompute all possible rotations in a big lookup table)
     (WIP: ran a few tests but not using, good enough for now)
 [ ] Determine if initial black bitmap needed
 [ ] Clean up palette assignment to objects (sometimes use three lines, not needed)
@@ -62,3 +61,4 @@ Cleanup and test
 
 
 ## Scratchpad / Notes
+
