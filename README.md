@@ -1,4 +1,4 @@
-## diceroll_feather
+## Keychain Diceroller
 
 I recently bought a board game that was missing a specialized die. Clearly the easiest solution to that problem was to build a little electronic keychain 'dice roller'.
 
